@@ -18,6 +18,9 @@ class Migration(migrations.Migration):
                 ('titulo', models.CharField(max_length=150)),
                 ('autor', models.CharField(max_length=150)),
                 ('identificacao', models.IntegerField()),
+                ('numPaginas', models.IntegerField()),
+                ('ano', models.IntegerField()),
+                ('sinopse', models.TextField(max_length=10000)),
             ],
         ),
     ]
