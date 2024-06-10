@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('identificacao', models.IntegerField()),
                 ('numPaginas', models.IntegerField()),
                 ('ano', models.IntegerField()),
-                ('sinopse', models.TextField(max_length=10000)),
+                ('sinopse', models.TextField()),
             ],
         ),
     ]

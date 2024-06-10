@@ -7,4 +7,4 @@ class Livros(models.Model):
     identificacao = models.IntegerField()
     numPaginas = models.IntegerField()
     ano = models.IntegerField()
-    sinopse = models.Textfield(max_Length=10000)
+    sinopse = models.TextField()
