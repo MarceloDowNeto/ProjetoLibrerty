@@ -19,7 +19,7 @@
         <input type="text" id="search" name="search" class="form-corntrol" placeholder="Buscar...">
       </form>
     </div>
-    <div class="col-8 m-auto pt-4 pb-2 text-center">
+    <div class="col-6 m-auto pt-4 pb-2 text-center">
         <table class="table">
             <thead class="thead-dark">
               <tr>
@@ -36,9 +36,9 @@
                 <td>{{dbs.autor}}</td>
                 <td>{{dbs.identificacao}}</td>
                 <td>
-                  <a href="/view/{{dbs.id}}/" class="btn btn-dark">Visualizar</a>
-                  <a href="/edit/{{dbs.id}}/" class="btn btn-primary">Editar</a>
-                  <a href="/delete/{{dbs.id}}/" class="btn btn-danger btnDel">Deletar</a>
+                  <a href="/view/{{dbs.id}}/" class="btn btn-dark text-center"><img src="/static/visualizar.png" alt="icone de visualizar" width="30px" height="30px" class="inverter"></a>
+                  <a href="/edit/{{dbs.id}}/" class="btn btn-primary text-center"><img src="/static/editar.png" alt="icone de editar" width="30px" height="25px"></a>
+                  <a href="/delete/{{dbs.id}}/" class="btn btn-danger btnDel text-center"><img src="/static/deletar.png" alt="icone de apagar" width="30px" height="25px"></a>
                 </td>
               </tr>
             {% endfor %}

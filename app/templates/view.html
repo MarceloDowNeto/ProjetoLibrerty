@@ -21,6 +21,10 @@
       <strong>Ano:</strong> {{db.ano}}<br>
       <strong>ID:</strong> {{db.identificacao}}<br>
       <strong>Sinopse:</strong><br> {{db.sinopse}}<br>
+    </div>
+    <div class="col-8 m-auto pt-3 pb-2 text-center">
+        <a href="/edit/{{db.id}}/" class="btn btn-primary">Editar</a>
+        <a href="/delete/{{db.id}}/" class="btn btn-danger btnDel">Deletar</a>
     </div>  
 </body>
 </html>
